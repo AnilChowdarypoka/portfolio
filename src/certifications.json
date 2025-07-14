@@ -1,0 +1,16 @@
+[
+  {
+    "image": "/images/certifications/gcp.png",
+    "title": "Google Cloud Certified Data Engineer",
+    "organization": "Google Cloud",
+    "year": "2024",
+    "credentialUrl": "#"
+  },
+  {
+    "image": "/images/certifications/ibm.png",
+    "title": "IBM Data Science Professional Certificate",
+    "organization": "IBM / Coursera",
+    "year": "2024",
+    "credentialUrl": "#"
+  }
+] 

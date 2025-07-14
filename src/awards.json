@@ -1,0 +1,16 @@
+[
+  {
+    "image": "/images/awards/awsome.png",
+    "title": "Wall of Awesomeness",
+    "organization": "Pace University",
+    "year": "2024",
+    "description": "Recognized for exceptional contributions and outstanding performance in the Data Science program"
+  },
+  {
+    "image": "/images/awards/techtitan.png",
+    "title": "Tech Titan",
+    "organization": "Pace University",
+    "year": "2024",
+    "description": "Awarded for demonstrating exceptional technical expertise and innovation in technology projects"
+  }
+] 

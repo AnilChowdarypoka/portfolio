@@ -1,0 +1,108 @@
+{
+  "hero": {
+    "name": "Anil",
+    "title": "Data Engineer",
+    "description": "Experienced Data Engineer specializing in building scalable data infrastructure, real-time analytics systems, and cloud-native solutions.",
+    "stats": [
+      { "number": "50+", "label": "Projects Completed" },
+      { "number": "10+", "label": "Satisfied Clients" },
+      { "number": "5", "label": "Years of Experience" }
+    ],
+    "contacts": [
+      { "href": "mailto:venkataanilkumar.p17@gmail.com", "label": "Email", "icon": "Mail" },
+      { "href": "https://github.com/AnilChowdarypoka", "label": "GitHub", "icon": "Github" },
+      { "href": "https://linkedin.com/in/venkataanilkumarp17/", "label": "LinkedIn", "icon": "Linkedin" },
+      { "href": "tel:5177150428", "label": "Phone", "icon": "Phone" }
+    ]
+  },
+  "about": {
+    "profileImage": "/images/profile.jpg",
+    "aboutTitle": "About Me",
+    "aboutParagraphs": [
+      "I'm a passionate data engineer with 5+ years of experience building scalable data infrastructure that processes billions of events daily. My expertise spans real-time streaming, distributed systems, and machine learning operations.",
+      "I specialize in designing and implementing modern data architectures using technologies like Apache Kafka, Spark, and cloud-native solutions. My work enables organizations to make data-driven decisions at scale.",
+      "When I'm not architecting data pipelines, I contribute to open-source projects, write technical articles, and mentor aspiring data engineers. I believe in building systems that are not just functional, but elegant and maintainable."
+    ]
+  },
+  "experience": [
+    {
+      "company": "Verizon",
+      "role": "Data Engineer",
+      "period": "Aug 2024 - Present",
+      "location": "Basking Ridge, New Jersey",
+      "achievements": [
+        "Designed, developed, and optimized end-to-end data pipelines using Google Cloud Storage, BigQuery, Dataflow, and PySpark, enabling high-throughput processing of structured and unstructured telecom, billing, and customer data, processing over 3TB daily and improving data ingestion speed by 50%.",
+        "Built and managed scalable big data environments leveraging Google Cloud Dataproc (Spark & Hadoop), which enhanced both batch and real-time data processing and accelerated analytics for underwriting and fraud detection teams by 40%.",
+        "Engineered modular ETL components in Python and SQL integrated with Data Fusion and Beam, automating complex data workflows with robust error handling to achieve 99.9% data pipeline uptime."
+      ]
+    },
+    {
+      "company": "Go Digit General Insurance Private Limited",
+      "role": "Data Engineer",
+      "period": "Jul 2021 - Dec 2022",
+      "location": "Bengalore, India",
+      "achievements": [
+        "Engineered and scaled data solutions using AWS services and big data technologies to enhance processing capabilities and support evolving business objectives, reducing operational bottlenecks by 20 hours monthly.",
+        "Collaborated across functions to design robust data models and deploy SOAP/REST APIs, increasing data accessibility by 40% and achieving a 25% improvement in system interoperability for real-time updates."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "image": "/images/education/pace.png",
+      "degree": "Master of Science (MS)",
+      "field": "Data Science",
+      "school": "Pace University, NY",
+      "years": "2023 - 2024"
+    },
+    {
+      "image": "/images/education/lpu.png",
+      "degree": "Bachelor of Technology (B.Tech)",
+      "field": "Computer Science and Engineering",
+      "school": "Lovely Professional University, India",
+      "years": "2016 - 2020"
+    }
+  ],
+  "awards": [
+    {
+      "image": "/images/awards/awsome.png",
+      "title": "Wall of Awesomeness",
+      "organization": "Pace University",
+      "year": "2024",
+      "description": "Recognized for exceptional contributions and outstanding performance in the Data Science program"
+    },
+    {
+      "image": "/images/awards/techtitan.png",
+      "title": "Tech Titan",
+      "organization": "Pace University",
+      "year": "2024",
+      "description": "Awarded for demonstrating exceptional technical expertise and innovation in technology projects"
+    }
+  ],
+  "certifications": [
+    {
+      "image": "/images/certifications/gcp.png",
+      "title": "Google Cloud Certified Data Engineer",
+      "organization": "Google Cloud",
+      "year": "2024",
+      "credentialUrl": "#"
+    },
+    {
+      "image": "/images/certifications/ibm.png",
+      "title": "IBM Data Science Professional Certificate",
+      "organization": "IBM / Coursera",
+      "year": "2024",
+      "credentialUrl": "#"
+    }
+  ],
+  "contact": {
+    "heading": "Let's Build Something Amazing",
+    "description": "I'm always interested in discussing new opportunities, challenging data problems, and innovative solutions. Whether you need to scale your data infrastructure or build real-time analytics, let's connect.",
+    "contactMethods": [
+      { "icon": "Mail", "title": "Email", "subtitle": "venkataanilkumar.p17@gmail.com", "href": "mailto:venkataanilkumar.p17@gmail.com" },
+      { "icon": "Linkedin", "title": "LinkedIn", "subtitle": "Connect professionally", "href": "https://linkedin.com/in/venkataanilkumarp17/" },
+      { "icon": "Github", "title": "GitHub", "subtitle": "View my projects", "href": "https://github.com/AnilChowdarypoka" },
+      { "icon": "Phone", "title": "Phone", "subtitle": "(517)-715-0428", "href": "tel:5177150428" }
+    ]
+  }
+} 

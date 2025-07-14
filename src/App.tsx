@@ -15,6 +15,8 @@ import {
 import AnimatedBackground from './components/AnimatedBackground';
 import TechStack from './components/TechStack';
 import Navbar from './components/Navbar';
+import experienceData from './experience.json';
+import heroData from './hero.json';
 
 function App() {
   const [activeSection, setActiveSection] = useState('hero');
@@ -75,7 +77,7 @@ function App() {
 
   const socialLinks = [
     {
-      href: 'mailto:venkata.kumar517@gmail.com',
+      href: 'mailto:venkataanilkumar.p17@gmail.com',
       label: 'Email',
       icon: <Mail className="w-6 h-6" />,
     },
@@ -85,17 +87,12 @@ function App() {
       icon: <Github className="w-6 h-6" />,
     },
     {
-      href: 'https://x.com/anil_poka?lang=en',
-      label: 'Twitter',
-      icon: <Twitter className="w-6 h-6" />,
-    },
-    {
-      href: 'https://www.linkedin.com/in/pvakc/',
+      href: 'https://linkedin.com/in/venkataanilkumarp17/',
       label: 'LinkedIn',
       icon: <Linkedin className="w-6 h-6" />,
     },
     {
-      href: 'tel:6467838157',
+      href: 'tel:5177150428',
       label: 'Phone',
       icon: <Phone className="w-6 h-6" />,
     },
@@ -121,7 +118,7 @@ function App() {
         scrollToSection={scrollToSection}
         mobileNavOpen={mobileNavOpen}
         setMobileNavOpen={setMobileNavOpen}
-        socialLinks={socialLinks}
+        socialLinks={[]}
       />
 
       {/* Hero Section */}
@@ -144,9 +141,9 @@ function App() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              Venkata Kumar<br />
+              {heroData.name}<br />
               <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent">
-                Data Engineer
+                {heroData.title}
               </span>
             </motion.h1>
             
@@ -156,8 +153,7 @@ function App() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Experienced Data Engineer specializing in building scalable data infrastructure, 
-              real-time analytics systems, and cloud-native solutions.
+              {heroData.description}
             </motion.p>
             
             {/* Social Media & Contact Icons */}
@@ -167,83 +163,32 @@ function App() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              <motion.a
-                href="mailto:venkata.kumar517@gmail.com"
-                className="group relative"
-                whileHover={{ y: -2, scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="w-12 h-12 flex items-center justify-center bg-gray-800/50 rounded-full border border-gray-700 group-hover:border-blue-500/50 transition-all duration-300">
-                  <Mail className="w-6 h-6 text-gray-300 group-hover:text-blue-400 transition-colors" />
-                </div>
-                <span className="absolute -bottom-8 left-1/2 -translate-x-1/2 px-2 py-1 bg-gray-900 text-xs text-white rounded opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200 whitespace-nowrap">
-                  Email Me
-                </span>
-              </motion.a>
-
-              <motion.a
-                href="https://github.com/AnilChowdarypoka"
-                className="group relative"
-                whileHover={{ y: -2, scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="w-12 h-12 flex items-center justify-center bg-gray-800/50 rounded-full border border-gray-700 group-hover:border-blue-500/50 transition-all duration-300">
-                  <Github className="w-6 h-6 text-gray-300 group-hover:text-blue-400 transition-colors" />
-                </div>
-                <span className="absolute -bottom-8 left-1/2 -translate-x-1/2 px-2 py-1 bg-gray-900 text-xs text-white rounded opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200 whitespace-nowrap">
-                  GitHub
-                </span>
-              </motion.a>
-
-              <motion.a
-                href="https://x.com/anil_poka?lang=en"
-                className="group relative"
-                whileHover={{ y: -2, scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="w-12 h-12 flex items-center justify-center bg-gray-800/50 rounded-full border border-gray-700 group-hover:border-blue-500/50 transition-all duration-300">
-                  <Twitter className="w-6 h-6 text-gray-300 group-hover:text-blue-400 transition-colors" />
-                </div>
-                <span className="absolute -bottom-8 left-1/2 -translate-x-1/2 px-2 py-1 bg-gray-900 text-xs text-white rounded opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200 whitespace-nowrap">
-                  Twitter
-                </span>
-              </motion.a>
-
-              <motion.a
-                href="https://www.linkedin.com/in/pvakc/"
-                className="group relative"
-                whileHover={{ y: -2, scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="w-12 h-12 flex items-center justify-center bg-gray-800/50 rounded-full border border-gray-700 group-hover:border-blue-500/50 transition-all duration-300">
-                  <Linkedin className="w-6 h-6 text-gray-300 group-hover:text-blue-400 transition-colors" />
-                </div>
-                <span className="absolute -bottom-8 left-1/2 -translate-x-1/2 px-2 py-1 bg-gray-900 text-xs text-white rounded opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200 whitespace-nowrap">
-                  LinkedIn
-                </span>
-              </motion.a>
-
-                <motion.a
-                href="tel:6467838157"
-                className="group relative"
-                whileHover={{ y: -2, scale: 1.1 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                <div className="w-12 h-12 flex items-center justify-center bg-gray-800/50 rounded-full border border-gray-700 group-hover:border-blue-500/50 transition-all duration-300">
-                  <Phone className="w-6 h-6 text-gray-300 group-hover:text-blue-400 transition-colors" />
-                </div>
-                <span className="absolute -bottom-8 left-1/2 -translate-x-1/2 px-2 py-1 bg-gray-900 text-xs text-white rounded opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200 whitespace-nowrap">
-                  Call Me
-                </span>
-                </motion.a>
+              {heroData.contacts.map((contact, idx) => {
+                const IconComponent =
+                  contact.icon === 'Mail' ? Mail :
+                  contact.icon === 'Github' ? Github :
+                  contact.icon === 'Twitter' ? Twitter :
+                  contact.icon === 'Linkedin' ? Linkedin :
+                  contact.icon === 'Phone' ? Phone : null;
+                return (
+                  <motion.a
+                    key={contact.label}
+                    href={contact.href}
+                    className="group relative"
+                    whileHover={{ y: -2, scale: 1.1 }}
+                    whileTap={{ scale: 0.95 }}
+                    target={contact.href.startsWith('http') || contact.href.startsWith('mailto') ? '_blank' : undefined}
+                    rel={contact.href.startsWith('http') || contact.href.startsWith('mailto') ? 'noopener noreferrer' : undefined}
+                  >
+                    <div className="w-12 h-12 flex items-center justify-center bg-gray-800/50 rounded-full border border-gray-700 group-hover:border-blue-500/50 transition-all duration-300">
+                      {IconComponent && <IconComponent className="w-6 h-6 text-gray-300 group-hover:text-blue-400 transition-colors" />}
+                    </div>
+                    <span className="absolute -bottom-8 left-1/2 -translate-x-1/2 px-2 py-1 bg-gray-900 text-xs text-white rounded opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200 whitespace-nowrap">
+                      {contact.label}
+                    </span>
+                  </motion.a>
+                );
+              })}
             </motion.div>
 
             <motion.div
@@ -252,11 +197,7 @@ function App() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.8 }}
             >
-              {[
-                { number: '50+', label: 'Projects Completed' },
-                { number: '10+', label: 'Satisfied Clients' },
-                { number: '5', label: 'Years of Experience' }
-              ].map((stat, index) => (
+              {heroData.stats.map((stat, index) => (
                 <motion.div
                   key={index}
                   className="text-center"
@@ -326,89 +267,8 @@ function App() {
           >
             Professional <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Experience</span>
           </motion.h2>
-          
           <div className="space-y-12">
-            {[
-              {
-                company: "Verizon",
-                role: "Data Engineer",
-                period: "Aug 2024 - Present",
-                location: "Basking Ridge, New Jersey",
-                achievements: [
-                  "Designed, developed, and optimized end-to-end data pipelines using Google Cloud Storage, BigQuery, Dataflow, and PySpark, enabling high-throughput processing of structured and unstructured telecom, billing, and customer data, processing over 3TB daily and improving data ingestion speed by 50%.",
-                  "Built and managed scalable big data environments leveraging Google Cloud Dataproc (Spark & Hadoop), which enhanced both batch and real-time data processing and accelerated analytics for underwriting and fraud detection teams by 40%.",
-                  "Engineered modular ETL components in Python and SQL integrated with Data Fusion and Beam, automating complex data workflows with robust error handling to achieve 99.9% data pipeline uptime.",
-                  "Architected fault-tolerant, low-latency real-time streaming data ingestion pipelines using Apache Kafka, Pub/Sub, and Apache Flink, reducing fraud alert detection time from hours to under 2 minutes and enhancing risk mitigation capabilities.",
-                  "Developed data transformation and cleansing scripts in Python, automating ingestion workflows for telecom usage, billing, and customer data while applying quality assurance best practices.",
-                  "Constructed a layered data lake architecture on Google Cloud Storage to organize raw, transformed, and curated telecom data, securing efficient access for analytics and reporting.",
-                  "Built high-performance, secure data warehouses using Google BigQuery and Snowflake by integrating internal and external data sources to support predictive modeling and regulatory reporting.",
-                  "Leveraged advanced SQL techniques in Google BigQuery to optimize partitioning and clustering strategies, which enhanced query performance by 40% and reduced costs by 25%.",
-                  "Implemented centralized data governance using Google DataPlex to manage and catalog metadata across telecom data in Cloud Storage and BigQuery.",
-                  "Developed custom monitoring and alerting solutions with Google Cloud Operations Suite and Cloud Logging, ensuring proactive detection and resolution of pipeline failures to maintain SLAs.",
-                  "Mentored junior engineers on cloud-native data engineering, Apache Beam pipelines, and security policies, fostering knowledge sharing and enhancing team productivity.",
-                  "Collaborated with DevOps to implement fully automated CI/CD pipelines using GitLab CI/CD and Google Cloud Build, reducing deployment times by 60% while enabling continuous integration and smooth rollback procedures.",
-                  "Partnered with compliance, data science, and product teams to translate business needs into scalable data solutions, facilitating data democratization and reducing time-to-insight by 35%."
-                ]
-              },
-              {
-                company: "Verisk Underwriting",
-                role: "Data Engineer",
-                period: "Jul 2023 - Aug 2024",
-                location: "Jersey City, New Jersey",
-                achievements: [
-                  "Engineered robust big data pipelines on AWS EMR using PySpark and HDFS to process over 5TB of underwriting and policy data daily, reducing ingestion time by 60% and enhancing accessibility for risk analytics.",
-                  "Designed and implemented real-time streaming ingestion pipelines with Apache Kafka and AWS Lambda, reducing event detection latency from hours to under 5 minutes and enabling dynamic risk scoring with 20% improved accuracy.",
-                  "Built and managed scalable data lakes on AWS S3 integrated with MongoDB for flexible schema management of semi-structured and unstructured insurance and geospatial data, which accelerated advanced modeling analytics.",
-                  "Developed star schema data models in Hive and Redshift that supported complex analytics on underwriting and exposure data, boosting dashboard query performance by 3x and aiding actuarial pricing decisions.",
-                  "Created PySpark and SQL-based ETL workflows incorporating automated validation and monitoring via AWS CloudWatch and Lambda to achieve 99.9% pipeline reliability and data accuracy.",
-                  "Implemented automated data profiling and quality assurance using Python and Hive, thereby reducing anomalies, and increasing the precision of predictive risk models used by actuarial teams.",
-                  "Collaborated with actuarial, compliance, and product teams to convert business requirements into scalable data solutions while establishing data lineage and governance frameworks across Kafka streams, Hive tables, and HDFS storage.",
-                  "Optimized Hive metastore configurations, Spark job parameters, and HDFS resource allocation on AWS EMR clusters, enhancing query performance and reducing cloud costs by 25% without impacting SLAs.",
-                  "Implemented robust error handling and incremental load strategies within ETL workflows to improve data freshness and reliability for real-time reporting and actuarial modeling.",
-                  "Built scalable ingestion pipelines for streaming and batch data using Logstash and Kafka, enabling near real-time indexing and improved search capabilities for fraud detection workflows.",
-                  "Automated routine Linux administration tasks using shell scripting and Cron jobs to ensure system reliability and minimize downtime.",
-                  "Integrated APIs and legacy on-premises data sources with cloud pipelines using Python and AWS Glue, consolidating over a decade of insurance and property data into a centralized analytics platform.",
-                  "Orchestrated complex data workflows with Apache Airflow and AWS Step Functions, enhancing pipeline reliability and operational efficiency while reducing failure rates by 30%.",
-                  "Implemented CI/CD pipelines using Jenkins, AWS CodePipeline, and CodeBuild to automate testing, deployment, and rollback of data pipelines, reducing deployment time by 50%."
-                ]
-              },
-              {
-                company: "Go Digit General Insurance Private Limited",
-                role: "Data Engineer",
-                period: "Jul 2021 - Dec 2022",
-                location: "Bengalore, India",
-                achievements: [
-                  "Engineered and scaled data solutions using AWS services and big data technologies to enhance processing capabilities and support evolving business objectives, reducing operational bottlenecks by 20 hours monthly.",
-                  "Collaborated across functions to design robust data models and deploy SOAP/REST APIs, increasing data accessibility by 40% and achieving a 25% improvement in system interoperability for real-time updates.",
-                  "Centralized unstructured API logs for over 500 clients by designing a scalable data pipeline with AWS DMS, Kafka, and AWS Lambda, enabling real-time failure detection, and reducing system downtime by 40%.",
-                  "Developed a scalable real-time telematics data processing pipeline using AWS, Kafka, and PySpark to analyze driving behavior and travel patterns for personalized insurance premiums, thereby improving pricing accuracy and enhancing customer satisfaction.",
-                  "Designed and implemented an 8-batch processing architecture using Airflow with reconciliation logic to manage flight delay insurance data from multiple vendors, increasing claims processing accuracy to 95% and reducing resolution time by 30%.",
-                  "Pioneered the development of a KYC module for life insurance using Python, Azure, and MongoDB with microservices, integrating with multiple clients to build a secure data lake, and reducing data verification time by 50%.",
-                  "Developed a data lake to classify and store IP address data, which identified and blocked 40% of suspicious traffic, thus preventing potential data theft.",
-                  "Automated real-time analytics and notifications for insurance claims pre-inspection using Apache Kafka, Apache Flink, Apache Airflow, PostgreSQL, and AWS Lambda, cutting downtime by 40% and improving system reliability.",
-                  "Architected a centralized data lake on Amazon S3 and Azure Data Lake Storage, enabling efficient management of structured, semi-structured, and unstructured data while designing scalable ETL pipelines.",
-                  "Analyzed large, critical datasets in the insurance and financial sectors using Python, SQL, and Hadoop technologies (HDFS, Hive, PySpark, Kafka) to drive actionable business insights and operational improvements.",
-                  "Migrated legacy databases to Postgres using DMS, ensuring 100% data integrity and reducing operational disruptions by 10%.",
-                  "Automated reporting processes using Python, SQL, and tools such as Tableau, Qlik & PowerBI, cutting reporting time by 20%.",
-                  "Managed Agile project milestones using Scrum, conducted RCA, and improved system reliability and resilience by 30%."
-                ]
-              },
-              {
-                company: "Prospecta Software Solutions Private Limited",
-                role: "Software Engineer, Data",
-                period: "Aug 2020 - Jul 2021",
-                location: "Gurgaon, India",
-                achievements: [
-                  "Developed and optimized RESTful APIs using Python and AWS API Gateway, enhancing data accessibility, and reducing latency by 30%, which enabled seamless integration with cloud-based data warehouses for real-time insights.",
-                  "Engineered Python-based applications by leveraging advanced libraries to build scalable solutions, thereby improving system performance by 25% and automating complex workflows.",
-                  "Designed and automated ETL workflows for data extraction from MySQL, PostgreSQL, and other RDBMS, transforming and loading results into HDFS, Snowflake, and Delta Lake to reduce manual processing time by 40%.",
-                  "Built API-driven data ingestion pipelines using Python (Pandas, NumPy, Requests), Apache Airflow, and AWS Lambda that automated the movement of structured and semi-structured data to cloud storage, cutting manual effort by 60%.",
-                  "Optimized SQL query performance to reduce execution time by 40% and enhance overall data retrieval efficiency.",
-                  "Revamped documentation using Confluence and introduced automated lineage tracking, which reduced support queries by 50%.",
-                  "Collaborated with data analysts, project managers, and the DevOps team to set clear objectives and ensure 100% on-time project delivery."
-                ]
-              }
-            ].map((experience, index) => (
+            {experienceData.map((experience, index) => (
               <motion.div
                 key={experience.company}
                 initial={{ opacity: 0, y: 20 }}
@@ -435,9 +295,7 @@ function App() {
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: true }}
                       transition={{ duration: 0.5, delay: (index * 0.1) + (i * 0.05) }}
-                      className={`flex items-start space-x-2 ${
-                        !expandedExperience && i >= 3 ? 'hidden' : ''
-                      }`}
+                      className={`flex items-start space-x-2 ${!expandedExperience && i >= 3 ? 'hidden' : ''}`}
                     >
                       <div className="w-2 h-2 mt-2 rounded-full bg-blue-500 flex-shrink-0" />
                       <span className="text-gray-300">{achievement}</span>
@@ -673,14 +531,14 @@ function App() {
               {
                 icon: <Mail className="w-8 h-8" />,
                 title: 'Email',
-                subtitle: 'venkata.kumar517@gmail.com',
-                href: 'mailto:venkata.kumar517@gmail.com'
+                subtitle: 'venkataanilkumar.p17@gmail.com',
+                href: 'mailto:venkataanilkumar.p17@gmail.com'
               },
               {
                 icon: <Linkedin className="w-8 h-8" />,
                 title: 'LinkedIn',
                 subtitle: 'Connect professionally',
-                href: 'https://www.linkedin.com/in/pvakc/'
+                href: '#'
               },
               {
                 icon: <Github className="w-8 h-8" />,
@@ -689,10 +547,10 @@ function App() {
                 href: '#'
               },
               {
-                icon: <Twitter className="w-8 h-8" />,
-                title: 'Twitter',
-                subtitle: '@anil_poka',
-                href: 'https://x.com/anil_poka?lang=en'
+                icon: <Phone className="w-8 h-8" />,
+                title: 'Phone',
+                subtitle: '(517)-715-0428',
+                href: 'tel:5177150428'
               }
             ].map((contact, index) => (
               <motion.a

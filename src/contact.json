@@ -1,0 +1,10 @@
+{
+  "heading": "Let's Build Something Amazing",
+  "description": "I'm always interested in discussing new opportunities, challenging data problems, and innovative solutions. Whether you need to scale your data infrastructure or build real-time analytics, let's connect.",
+  "contactMethods": [
+    { "icon": "Mail", "title": "Email", "subtitle": "venkataanilkumar.p17@gmail.com", "href": "mailto:venkataanilkumar.p17@gmail.com" },
+    { "icon": "Linkedin", "title": "LinkedIn", "subtitle": "Connect professionally", "href": "https://linkedin.com/in/venkataanilkumarp17/" },
+    { "icon": "Github", "title": "GitHub", "subtitle": "View my projects", "href": "https://github.com/AnilChowdarypoka" },
+    { "icon": "Phone", "title": "Phone", "subtitle": "(517)-715-0428", "href": "tel:5177150428" }
+  ]
+} 

@@ -44,7 +44,7 @@ const Navbar: React.FC<NavbarProps> = ({
             }`}
             whileHover={{ scale: 1.05 }}
           >
-            Venkata Kumar
+            Anil
           </motion.div>
           {/* Hamburger for mobile */}
           <button

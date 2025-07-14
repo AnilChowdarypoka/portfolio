@@ -1,0 +1,86 @@
+[
+  {
+    "company": "Verizon",
+    "role": "Senior Data Engineer",
+    "period": "08/2024- Present",
+    "location": "Basking Ridge, New Jersey",
+    "achievements": [
+      "Designed, configured, and built end-to-end data pipelines across Google Cloud Storage, BigQuery, Dataflow and PySpark for processing structured and unstructured telecom, billing, and customer data at high volume.",
+      "Built and supported horizontally scalable big data architectures based on Google Cloud Dataproc (Spark & Hadoop) and designed for batch and real-time processing of mission-critical analytics workloads.",
+      "Architected real-time data ingestion pipelines using Apache Kafka, Pub/Sub, and Apache Flink for fraud alert reduction in latency, support for event-driven and batch processing.",
+      "Developed parameterized, metadata driven ETL pipelines to reduce onboarding time of new data sources and deployment time by building flexibility into the pipeline.",
+      "Developed a layered data lake architecture on Google Cloud Storage to organize a data lake into raw, transformed, curated, and product data zones while improving accessibility and governance.",
+      "Built secure data warehouses in BigQuery and Snowflake by merging diverse internal and external datasets from predictive modelling to compliance reporting with high performance.",
+      "Leveraged advanced SQL in BigQuery for partitioning and clustering optimization of tables and queries to reduce costs and improve analytical performance across business reports.",
+      "Orchestrated complex PySpark ETL workflows using Cloud Composer (Apache Airflow) to schedule and monitor data pipelines across BigQuery, Dataflow, and Cloud Storage, ensuring timely delivery and improving pipeline reliability by 35%.",
+      "Implemented automated data quality checks and audit logging in ingestion workflows to increase data trustworthiness and promote compliance.",
+      "Built alerting and monitoring features using Cloud Logging and Google Cloud Operations Suite and Pub/Sub to ensure fast incident awareness and adherence to SLA requirements.",
+      "Developed reusable ETL templates using Apache Beam and Data Fusion to generate consistent development practices and decrease code duplication across teams.",
+      "Designed and built interactive dashboards in Tableau and Power BI that translated complex data into visualizations to help business users make decisions based on data evidence and allow them to visualize and understand key performance indicators in real time.",
+      "Automated deployment and configuration tasks using Ansible and integrated with Bitbucket for version-controlled, repeatable infrastructure changes.",
+      "Worked with DevOps to create Jenkins-based CI/CD pipelines and integrated Google Cloud Build for automated tests and deployments of ETL code reducing release cycles.",
+      "Worked with product, compliance, and data science divisions to continuously translate evolving business needs into scalable data engineering solutions that leverage data to support operational decision making."
+    ]
+  },
+  {
+    "company": "Citibank",
+    "role": "Data Engineer",
+    "period": "06/2023- 08/2024",
+    "location": "Jersey City, New Jersey",
+    "achievements": [
+      "Architected and optimized large-scale Apache Spark pipelines on AWS EMR, processing 5+ TB of trades and market data daily, enabling a 60% faster performance of risk analytics and regulatory reporting.",
+      "Developed and maintained real-time streaming ingestion pipelines utilizing Kafka, Apache Flink, and AWS Lambda, cutting fraud detection latency from hours to less than five minutes to allow for faster risk mitigation.",
+      "Migrated legacy batch ETL workflows to distributed Spark jobs on Hadoop YARN, bringing forth 40% enhanced performance of jobs and into a higher mode of scaling with increasing data volumes.",
+      "Designed and optimized Hive and Impala data warehouses with partitioning, bucketing, and indexing leading to a 35% improvement in query performance.",
+      "Developed and optimized complex ETL pipelines in Informatica PowerCenter, enhancing data accuracy and processing. efficiency for critical financial reporting.",
+      "Built proactive Splunk alerts, dashboards to monitor ETL workflows and infrastructure, cutting response time by 30%.",
+      "Created pipelines in Python to clean, validate and transform data to enhance data quality and ultimately reduce the number of anomalies almost 25%.",
+      "Automated the ETL orchestration process using Apache Airflow and Oozie, while also executing dependencies of Spark, Hive, Impala and HBase jobs concurrently which enabled us to maintain 99.9% pipeline reliability and eliminated of manual effort.",
+      "Administered the HBase and Hive clusters and tuned them using Unix/Linux shell scripts and commands to better cluster performance and stability.",
+      "Created schema aware ingestion frameworks for structured and semi-structured sources with Apache Avro, Parquet and Delta Lake enabling interoperability across various analytics teams.",
+      "Developed containerized microservices using Docker as well as Kubernetes , to take advantage of superior portability and speed of application deployment.",
+      "Developed and implemented a full-stack monitoring and observability solution utilizing ELK Stack, Grafana and Prometheus combos that gave us greatly improved visibility into the health of our pipeline and a 40% reduction in incident resolution time."
+    ]
+  },
+  {
+    "company": "Digit Insurance",
+    "role": "Data Engineer",
+    "period": "07/2021- 12/2022",
+    "location": "Bangalore, India",
+    "achievements": [
+      "Engineered and scaled data solutions using AWS services and big data technologies to enhance processing capabilities and support evolving business objectives, reducing operational bottlenecks by 20 hours monthly.",
+      "Worked collaboratively and cross-functionally to design validated data models and deploy SOAP/REST APIs, increasing data access and improving real-time updates in interoperability model.",
+      "Consolidated unstructured API logs from over 500 clients by designing a scalable data pipeline with AWS DMS, Kafka, and AWS Lambda: increasing visibility around failure detection in real-time and lowering average system outages by 40%.",
+      "Implemented a scalable real-time telematics data processing pipeline using AWS, Kafka, and PySpark that analyzes driving behavior and travel patterns; enabling the pricing of insurance premiums in a personalized manner to both improve pricing accuracy and customer satisfaction.",
+      "and fine-tuned Snowflake data warehouse schemas using star and snowflake modeling techniques, resulting in faster query execution, improved data integrity, and streamlined support for complex analytical workloads.",
+      "Architected and implemented 8-batch processing architecture utilizing Airflow with reconciliation logic to process delay insurance data from multiple vendors, increasing the accuracy of claims processing and reducing the time to resolution by 30%.",
+      "Led the development of a KYC module for life insurance utilizing Python, Azure, and MongoDB, along with microservices to connect multiple clients and create a secured data lake, cutting down data verification time significantly.",
+      "Launched a data lake to categorize and deliver the IP address data and determined majority of the suspicious traffic were blocked while being analyzed, thus avoiding potential data theft.",
+      "Automated ETL data workflows using Informatica and implemented Splunk-based monitoring to ensure data pipeline reliability and faster issue resolution.",
+      "Developed advanced SQL procedures and optimized complex queries in PostgreSQL and MySQL for insurance billing and usage analytics, reducing query execution time by 40% and supporting faster business reporting.",
+      "Automated real-time analytics and notifications to manage insurance claim's pre-inspection using Apache Kafka, Apache Flink, Apache Airflow, PostgreSQL, and AWS Lambda, which cut the downtime by and increases the reliability of the system.",
+      "Designed a centralized repository/data lake on Amazon S3 and Azure Data Lake Storage to efficiently manage structured data, semi-structured data, and unstructured data while designing scalable ETL Pipelines.",
+      "Explored large, critical datasets in both insurance and financial industries using Python, SQL, and Hadoop technologies (HDFS, Hive, PySpark, and Kafka) to Australian and actionable business value and operational improvements.",
+      "Migrated legacy databases to Postgres using DMS and ensured complete data integrity and minimized operational disruption.",
+      "Automated the reporting process using Python, SQL, and tools like Tableau, Qlik, and Power BI, reducing report time by 20%."
+    ]
+  },
+  {
+    "company": "Legato Health Technologies",
+    "role": "Data Engineer",
+    "period": "03/2020- 07/2021",
+    "location": "Hyderabad, India",
+    "achievements": [
+      "Designed and optimized scalable Apache Spark pipelines on AWS S3 to ingest multi-terabyte healthcare claims and clinical datasets, shortening time to data availability and enabling advanced population health analytics.",
+      "Implemented event driven ETL workflows leveraging AWS Lambda and S3 event triggers to automate the ingestion of patient eligibility and medication adherence data, reducing ingestion latency from hours to minutes.",
+      "Designed data integration frameworks that combined transactional PostgreSQL and clinical NoSQL data repositories into holistic analytics lakes, inputting feedback from clinical informatics and data science teams, and ensuring compliance to HL7/FHIR.",
+      "Created Spark Structured Streaming pipelines in conjunction with Kafka for near real-time ingestion of pharmacy benefit management (PBM) transaction data, increasing claim adjudication velocity and accuracy by 30%.",
+      "Oversaw migration of legacy batch ETL pipeline processes to cloud native AWS stacks, reducing infrastructure expenditures by 25%, and increasing scale, security, and compliance with HIPAA and HITRUST.",
+      "Created reusable python automation scripts for ingestion, data cleanup, and data reconciliation of clinical and claims data, decreasing human-initiated and manual processes by 50%, and time to analytics.",
+      "Worked with clinical operations and data science staff to translate complicated care management workflows into optimized PostgreSQL queries to quickly identify high-risk patient populations that could be included in outreach or intervention.",
+      "Developed automation of daily data engineering tasks using Unix/Linux shell scripting that improved operational efficiencies and reduced manual error.",
+      "Worked with DevOps and infra teams to establish CI/CD pipelines using Jenkins, GitHub Actions, and AWS Code continues to decrease deployment times and improve reliability of pipelines.",
+      "Monitoring of pipeline health and performance watching AWS CloudWatch, ELK stack and custom Unix monitoring scripts. Proactively resolved bottlenecks in our pipeline and dictated operational uptime of 99.9%."
+    ]
+  }
+] 

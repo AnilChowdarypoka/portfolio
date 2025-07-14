@@ -1,0 +1,16 @@
+[
+  {
+    "image": "/images/education/pace.png",
+    "degree": "Master of Science (MS)",
+    "field": "Data Science",
+    "school": "Pace University, NY",
+    "years": "2023 - 2024"
+  },
+  {
+    "image": "/images/education/lpu.png",
+    "degree": "Bachelor of Technology (B.Tech)",
+    "field": "Computer Science and Engineering",
+    "school": "Lovely Professional University, India",
+    "years": "2016 - 2020"
+  }
+] 

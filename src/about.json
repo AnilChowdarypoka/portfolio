@@ -1,0 +1,9 @@
+{
+  "profileImage": "/images/profile.jpg",
+  "aboutTitle": "About Me",
+  "aboutParagraphs": [
+    "I'm a passionate data engineer with 5+ years of experience building scalable data infrastructure that processes billions of events daily. My expertise spans real-time streaming, distributed systems, and machine learning operations.",
+    "I specialize in designing and implementing modern data architectures using technologies like Apache Kafka, Spark, and cloud-native solutions. My work enables organizations to make data-driven decisions at scale.",
+    "When I'm not architecting data pipelines, I contribute to open-source projects, write technical articles, and mentor aspiring data engineers. I believe in building systems that are not just functional, but elegant and maintainable."
+  ]
+} 

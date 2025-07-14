@@ -1,0 +1,17 @@
+{
+  "name": "Anil",
+  "title": "Data Engineer",
+  "description": "Experienced Data Engineer specializing in building scalable data infrastructure, real-time analytics systems, and cloud-native solutions.",
+  "stats": [
+    { "number": "50+", "label": "Projects Completed" },
+    { "number": "10+", "label": "Satisfied Clients" },
+    { "number": "5", "label": "Years of Experience" }
+  ],
+  "contacts": [
+    { "href": "mailto:venkataanilkumar.p17@gmail.com", "label": "Email", "icon": "Mail" },
+    { "href": "https://github.com/AnilChowdarypoka", "label": "GitHub", "icon": "Github" },
+    { "href": "https://x.com/anil_poka?lang=en", "label": "Twitter", "icon": "Twitter" },
+    { "href": "https://linkedin.com/in/venkataanilkumarp17/", "label": "Linkedin", "icon": "Linkedin" },
+    { "href": "tel:5177150428", "label": "Phone", "icon": "Phone" }
+  ]
+} 
