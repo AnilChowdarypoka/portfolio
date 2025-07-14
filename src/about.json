@@ -2,8 +2,11 @@
   "profileImage": "/images/profile.jpg",
   "aboutTitle": "About Me",
   "aboutParagraphs": [
-    "I'm a passionate data engineer with 5+ years of experience building scalable data infrastructure that processes billions of events daily. My expertise spans real-time streaming, distributed systems, and machine learning operations.",
-    "I specialize in designing and implementing modern data architectures using technologies like Apache Kafka, Spark, and cloud-native solutions. My work enables organizations to make data-driven decisions at scale.",
-    "When I'm not architecting data pipelines, I contribute to open-source projects, write technical articles, and mentor aspiring data engineers. I believe in building systems that are not just functional, but elegant and maintainable."
+
+    "Experienced Data Engineer specializing in designing, developing, and optimizing scalable data pipelines and analytics solutions across finance, telecom, insurance, and healthcare domains. Skilled in leveraging big data technologies such as Apache Spark, Hadoop, Kafka, and Hive, combined with cloud platforms including AWS, Google Cloud, and Azure to deliver reliable, high-performance data workflows for both batch and real-time processing.",
+
+"Proficient in advanced SQL and data modeling techniques to build efficient data warehouses and lakes that support business intelligence and predictive analytics. Adept at automation, CI/CD pipelines, and infrastructure-as-code to ensure rapid, repeatable, and secure deployment of data applications. Strong programming background in Python, Java, and Scala, with expertise in RESTful API development and microservices architecture.",
+
+"Committed to collaborating with cross-functional teams—including data science, product management, and DevOps—to translate complex business requirements into actionable, production-ready data solutions that drive impactful insights and operational excellence."
   ]
 } 
