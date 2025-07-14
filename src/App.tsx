@@ -75,29 +75,6 @@ function App() {
     setExpandedExperience(expandedExperience === company ? null : company);
   };
 
-  const socialLinks = [
-    {
-      href: 'mailto:venkataanilkumar.p17@gmail.com',
-      label: 'Email',
-      icon: <Mail className="w-6 h-6" />,
-    },
-    {
-      href: 'https://github.com/AnilChowdarypoka',
-      label: 'GitHub',
-      icon: <Github className="w-6 h-6" />,
-    },
-    {
-      href: 'https://linkedin.com/in/venkataanilkumarp17/',
-      label: 'LinkedIn',
-      icon: <Linkedin className="w-6 h-6" />,
-    },
-    {
-      href: 'tel:5177150428',
-      label: 'Phone',
-      icon: <Phone className="w-6 h-6" />,
-    },
-  ];
-
   return (
     <div className="bg-gray-900 text-white min-h-screen relative overflow-x-hidden">
       {/* Custom cursor effect */}
@@ -163,7 +140,7 @@ function App() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              {heroData.contacts.map((contact, idx) => {
+              {heroData.contacts.map((contact) => {
                 const IconComponent =
                   contact.icon === 'Mail' ? Mail :
                   contact.icon === 'Github' ? Github :

@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { Mail, Github, Linkedin, Phone } from 'lucide-react';
 
 interface HeroSectionProps {
   name: string;
@@ -56,7 +55,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          {contacts.map((contact, idx) => (
+          {contacts.map((contact) => (
             <motion.a
               key={contact.label}
               href={contact.href}
