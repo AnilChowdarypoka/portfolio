@@ -2,11 +2,10 @@
   "profileImage": "/images/profile.jpg",
   "aboutTitle": "About Me",
   "aboutParagraphs": [
+    "Data Engineer with strong experience building and optimizing data platforms that power large-scale media and streaming analytics. Currently contributing to Disney’s data ecosystem by designing and maintaining high-performance data pipelines that support audience insights, content performance, and personalization initiatives across Disney Streaming and Entertainment platforms.",
 
-    "Experienced Data Engineer specializing in designing, developing, and optimizing scalable data pipelines and analytics solutions across finance, telecom, insurance, and healthcare domains. Skilled in leveraging big data technologies such as Apache Spark, Hadoop, Kafka, and Hive, combined with cloud platforms including AWS, Google Cloud, and Azure to deliver reliable, high-performance data workflows for both batch and real-time processing.",
+    "Skilled in leveraging Big Data technologies such as Apache Spark, Hadoop, Kafka, Hive, and Airflow, combined with cloud-native architectures on AWS and GCP to deliver scalable and reliable batch and real-time data solutions. Experienced in designing efficient data models, implementing ETL/ELT pipelines, and building observability and automation frameworks for data reliability and performance.",
 
-"Proficient in advanced SQL and data modeling techniques to build efficient data warehouses and lakes that support business intelligence and predictive analytics. Adept at automation, CI/CD pipelines, and infrastructure-as-code to ensure rapid, repeatable, and secure deployment of data applications. Strong programming background in Python, Java, and Scala, with expertise in RESTful API development and microservices architecture.",
-
-"Committed to collaborating with cross-functional teams—including data science, product management, and DevOps—to translate complex business requirements into actionable, production-ready data solutions that drive impactful insights and operational excellence."
+    "Passionate about transforming complex streaming data into actionable insights that enhance viewer experience, optimize platform efficiency, and enable data-driven decision-making across business and engineering teams. Dedicated to building future-ready data solutions that align with Disney’s mission to deliver world-class storytelling through technology."
   ]
-} 
+}
